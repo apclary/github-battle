@@ -171,7 +171,7 @@ class Battle extends React.Component {
               pathname: match.url + '/results',
               search: '?playerOneName=' + playerOneName + '&playerTwoName=' + playerTwoName
             }}>
-              Battle
+              Battle1
           </Link>}
       </div>
     )
