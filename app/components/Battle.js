@@ -107,7 +107,6 @@ class Battle extends React.Component {
   }
 
   handleSubmit(id, username) {
-    // test
     this.setState(function() {
       var newState  = {};
       newState[id + 'Name'] = username;
